@@ -34,6 +34,6 @@ func stringMath(angka string) []int {
 func main() {
 	fmt.Println(stringMath("5 + 2 + 1"))            // 8
 	fmt.Println(stringMath("7 - 4 + 21"))           // 24
-	fmt.Println(stringMath("15 + 241 - 741 + -24")) // 8
-	fmt.Println(stringMath("5 + 2 + 1"))            // 8
+	fmt.Println(stringMath("15 + 241 - 741 + -24")) // -509
+	fmt.Println(stringMath("274 - 3561 + 80 - 74")) // -3281
 }
